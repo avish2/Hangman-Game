@@ -1,0 +1,35 @@
+
+body {
+  background-color: beige;
+}
+.wrappper{
+  @include clear;
+  width:100%;
+  margin:0 auto;
+}
+
+canvas{
+  color: #ccccd0;
+  border: $white dashed 2px;
+  padding:15px;
+}
+
+#wordspace {
+  margin:0px;
+  padding: 25px;
+  border: solid 2px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#myguesses {
+  display: inline;
+}
+
+#directions {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
