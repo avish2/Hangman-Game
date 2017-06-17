@@ -1,8 +1,14 @@
-window.onload = function () {
     var wins = 0;
     var losses = 0;
     document.getElementById("mywins").innerHTML = "Games Won: " + wins;
     document.getElementById("mylosses").innerHTML = "Games Lost: " + losses;
+
+
+window.onload = function () {
+    // var wins = 0;
+    // var losses = 0;
+    // document.getElementById("mywins").innerHTML = "Games Won: " + wins;
+    // document.getElementById("mylosses").innerHTML = "Games Lost: " + losses;
     runHangman();
 
   function runHangman() {
