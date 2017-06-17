@@ -1,7 +1,7 @@
     var wins = 0;
     var losses = 0;
-    document.getElementById("mywins").innerHTML = "Games Won: " + wins;
-    document.getElementById("mylosses").innerHTML = "Games Lost: " + losses;
+    document.getElementById("mywins").innerHTML = "Won " + wins + " games";
+    document.getElementById("mylosses").innerHTML = "Lost " + losses + " games";
 
 
 window.onload = function () {
@@ -143,12 +143,12 @@ window.onload = function () {
     //Display games lost
     function gamesLost () {
       losses++;
-      document.getElementById("mylosses").innerHTML = "Games Lost: " + losses;
+      document.getElementById("mylosses").innerHTML = "Lost " + losses + " games";
     }
     //Display games won
     function gamesWon() {
       wins++;
-      document.getElementById("mywins").innerHTML = "Games Won: " + wins;
+      document.getElementById("mywins").innerHTML = "Won " + wins + " games";
     }
 }
     //Display games won

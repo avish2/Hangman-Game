@@ -2,16 +2,32 @@
 body {
   background-color: beige;
 }
-.wrappper{
+/*.wrappper{
   @include clear;
   width:100%;
-  margin:0 auto;
+  margin:0 auto;*/
+/*}*/
+#guesses {
+  text-align: right;
+  padding-left: 3px;
+}
+#myguesses {
+  text-align: left;
+  padding: 0px;
+}
+.wrapper {
+  font-size: 20px;
 }
 
 canvas{
   color: #ccccd0;
   border: $white dashed 2px;
   padding:15px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
 }
 
 #wordspace {
@@ -22,9 +38,9 @@ canvas{
   text-align: center;
 }
 
-#myguesses {
+/*#myguesses {
   display: inline;
-}
+}*/
 
 #directions {
   text-align: center;
@@ -32,4 +48,26 @@ canvas{
 
 .container {
   text-align: center;
+}
+.buttoncontainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#mywins {
+  font: bold 20px green;
+}
+#mylosses {
+  font: bold 20px green;
+}
+.panel-body {
+  padding: 10px;
+  background-color: white;
+}
+.panel {
+  padding: 0px;
+  text-align: center;
+}
+.panel-heading {
+  padding: 10px;
 }
